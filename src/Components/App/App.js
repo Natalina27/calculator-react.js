@@ -18,13 +18,16 @@ function App() {
     setCounters(newCounts);
   };
 
-  const increment = () => {
-    console.log('INC');
-
+  const decrement = (id) => {
+    console.log('DEC ' + id);
+    const index = counters.findIndex(el => el.id === id);
+    const newCounts = [...counters];
+    newCounts[index].count = newCounts[index].count - 1;
+    setCounters(newCounts);
   };
-  const decrement = () => {
-    console.log('DEC');
 
+  const increment = (id) => {
+    console.log('INC ' + id);
   };
 
   return (
@@ -34,10 +37,11 @@ function App() {
       <button onClick={resetTotalCount}>Reset total count</button>
       <hr />
       {counters.map(el => <Counter key={el.id}
+                                   id={el.id}
                                    name={el.name}
                                    count={el.count}
                                    increment={increment}
-                                   decremenr={decrement}
+                                   decrement={decrement}
       />)
       }
     </div>
