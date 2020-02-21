@@ -4,7 +4,6 @@
     <list default="true" id="8240a2eb-4c2c-4461-8060-eaa3030959c2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Counter/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Counter/Counter.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +83,7 @@
       <updated>1582302240840</updated>
       <workItem from="1582302244635" duration="276000" />
       <workItem from="1582309046327" duration="4167000" />
-      <workItem from="1582323406291" duration="1611000" />
+      <workItem from="1582323406291" duration="2124000" />
     </task>
     <task id="LOCAL-00001" summary="created directory Components and App inside it">
       <created>1582310350169</created>
@@ -100,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582314763770</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="decrement function in App">
+      <created>1582325352582</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582325352582</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +128,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created directory Components and App inside it" />
     <MESSAGE value="added in App: array of initial counters, State, function reset, functions plus and minus&#10;added in Counters: props and 2 buttons + / -" />
-    <option name="LAST_COMMIT_MESSAGE" value="added in App: array of initial counters, State, function reset, functions plus and minus&#10;added in Counters: props and 2 buttons + / -" />
+    <MESSAGE value="decrement function in App" />
+    <option name="LAST_COMMIT_MESSAGE" value="decrement function in App" />
   </component>
 </project>

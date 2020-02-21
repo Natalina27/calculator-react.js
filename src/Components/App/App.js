@@ -28,6 +28,11 @@ function App() {
 
   const increment = (id) => {
     console.log('INC ' + id);
+    const newCounts = counters.map(el =>{
+      if(el.id === id) return { ...el, count: el.count + 1};
+      return el;
+        });
+    setCounters(newCounts);
   };
 
   return (
