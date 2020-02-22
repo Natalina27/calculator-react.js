@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './App.css';
 import Counter from "../Counter/Counter";
+import CounterForm from "../CounterForm/CounterForm";
 
 function App() {
 
@@ -40,6 +41,15 @@ function App() {
     setCounters(newCounters);
   };
 
+  const addCounter =(name, count) => {
+    const newCounters = [...counters, {
+      id: Math.random(),
+      name,
+      count
+    }];
+    setCounters(newCounters);
+  };
+
   return (
     <div className="App">
       <h1>Counters</h1>
@@ -53,9 +63,15 @@ function App() {
                                             increment={incrementCounter}
                                             decrement={decrementCounter}
                                             remove={removeCounter}
+
       />)
       }
+      <hr/>
+
+      <CounterForm onSubmit={addCounter}/>
+
     </div>
+
   );
 }
 
