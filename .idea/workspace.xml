@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8240a2eb-4c2c-4461-8060-eaa3030959c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/CounterForm/CounterForm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/CounterForm/CounterForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.js" afterDir="false" />
-    </list>
+    <list default="true" id="8240a2eb-4c2c-4461-8060-eaa3030959c2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +84,7 @@
       <updated>1582302240840</updated>
       <workItem from="1582302244635" duration="276000" />
       <workItem from="1582309046327" duration="4167000" />
-      <workItem from="1582323406291" duration="5470000" />
+      <workItem from="1582323406291" duration="5728000" />
     </task>
     <task id="LOCAL-00001" summary="created directory Components and App inside it">
       <created>1582310350169</created>
@@ -128,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582368365318</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added CounterForm component with input and create button">
+      <created>1582370609146</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582370609146</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +153,7 @@
     <MESSAGE value="decrement function in App" />
     <MESSAGE value="increment function in App" />
     <MESSAGE value="added removeCounter function for DELETE button" />
-    <option name="LAST_COMMIT_MESSAGE" value="added removeCounter function for DELETE button" />
+    <MESSAGE value="added CounterForm component with input and create button" />
+    <option name="LAST_COMMIT_MESSAGE" value="added CounterForm component with input and create button" />
   </component>
 </project>
