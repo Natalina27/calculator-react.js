@@ -14,25 +14,30 @@ function App() {
 
   const resetTotalCount = () =>{
     console.log('resetTotalCount');
-    const newCounts = counters.map(el => ({ ...el, count: 0}));
-    setCounters(newCounts);
+    const newCounters = counters.map(el => ({ ...el, count: 0}));
+    setCounters(newCounters);
   };
 
-  const decrement = (id) => {
+  const decrementCounter = (id) => {
     console.log('DEC ' + id);
     const index = counters.findIndex(el => el.id === id);
-    const newCounts = [...counters];
-    newCounts[index].count = newCounts[index].count - 1;
-    setCounters(newCounts);
+    const newCounters = [...counters];
+    newCounters[index].count = newCounters[index].count - 1;
+    setCounters(newCounters);
   };
 
-  const increment = (id) => {
+  const incrementCounter = (id) => {
     console.log('INC ' + id);
-    const newCounts = counters.map(el =>{
+    const newCounters = counters.map(el =>{
       if(el.id === id) return { ...el, count: el.count + 1};
       return el;
         });
-    setCounters(newCounts);
+    setCounters(newCounters);
+  };
+  
+  const removeCounter = (id) => {
+    const newCounters = counters.filter(el => el.id !== id);
+    setCounters(newCounters);
   };
 
   return (
@@ -42,11 +47,12 @@ function App() {
       <button onClick={resetTotalCount}>Reset total count</button>
       <hr />
       {counters.map(el => <Counter key={el.id}
-                                   id={el.id}
-                                   name={el.name}
-                                   count={el.count}
-                                   increment={increment}
-                                   decrement={decrement}
+                                            id={el.id}
+                                            name={el.name}
+                                            count={el.count}
+                                            increment={incrementCounter}
+                                            decrement={decrementCounter}
+                                            remove={removeCounter}
       />)
       }
     </div>

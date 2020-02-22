@@ -10,6 +10,7 @@ function Counter(props) {
 
             <button onClick={() => props.decrement(props.id)}>-</button>
             <button onClick={() => props.increment(props.id)}>+</button>
+            <button onClick={() => props.remove(props.id)}>DELETE</button>
 
         </div>
     );
