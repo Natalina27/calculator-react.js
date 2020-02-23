@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 import '../Counter/Counter.css';
 
 function Counter(props) {
     return(
         <div className='card mb-2'>
             <div className='card-body'>
-                <div className="row">
-                    <div className="col">
+                <div className='row'>
+                    <div className='col'>
                             ID <strong>{props.id}</strong>
                             Counter name <strong>{props.name}</strong>
                             Counter value <strong>{props.count}</strong>

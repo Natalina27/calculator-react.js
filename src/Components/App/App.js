@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './App.css';
-import Counter from "../Counter/Counter";
-import AddCounterForm from "../AddCounterForm/AddCounterForm";
+import Counter from '../Counter/Counter';
+import AddCounterForm from '../AddCounterForm/AddCounterForm';
 
 function App() {
 
@@ -51,10 +51,10 @@ function App() {
   };
 
   return (
-    <div className="container">
+    <div className='container'>
       <h1>Counters</h1>
       Total {counters.reduce((a,b) => a + b.count, 0)}
-      <button onClick={resetTotalCount} className="btn btn-danger">Reset total count</button>
+      <button onClick={resetTotalCount} className='btn btn-danger'>Reset total count</button>
       <hr />
       {
         counters.map(el => <Counter   key={el.id}
