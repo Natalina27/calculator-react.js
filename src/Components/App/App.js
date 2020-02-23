@@ -51,10 +51,10 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="container">
       <h1>Counters</h1>
       Total {counters.reduce((a,b) => a + b.count, 0)}
-      <button onClick={resetTotalCount}>Reset total count</button>
+      <button onClick={resetTotalCount} className="btn btn-danger">Reset total count</button>
       <hr />
       {counters.map(el => <Counter key={el.id}
                                             id={el.id}

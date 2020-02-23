@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8240a2eb-4c2c-4461-8060-eaa3030959c2" name="Default Changelist" comment="" />
+    <list default="true" id="8240a2eb-4c2c-4461-8060-eaa3030959c2" name="Default Changelist" comment="added CounterForm component with input and create button">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Counter/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Counter/Counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/CounterForm/CounterForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CounterForm/CounterForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +92,7 @@
       <updated>1582302240840</updated>
       <workItem from="1582302244635" duration="276000" />
       <workItem from="1582309046327" duration="4167000" />
-      <workItem from="1582323406291" duration="5728000" />
+      <workItem from="1582323406291" duration="8898000" />
     </task>
     <task id="LOCAL-00001" summary="created directory Components and App inside it">
       <created>1582310350169</created>
