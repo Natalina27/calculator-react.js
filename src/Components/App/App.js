@@ -1,14 +1,14 @@
 import React, {useState} from 'react';
 import './App.css';
 import Counter from "../Counter/Counter";
-import CounterForm from "../CounterForm/CounterForm";
+import AddCounterForm from "../AddCounterForm/AddCounterForm";
 
 function App() {
 
   const InitialCounterState = [
-    { id: 123, name: 'Counter 1', count: 2 },
-    { id: 234, name: 'Counter 2', count: 5 },
-    { id: 345, name: 'Counter 3', count: 8 },
+    { id: 123, name: 'Counter 1  ', count: 2 },
+    { id: 234, name: 'Counter 2  ', count: 5 },
+    { id: 345, name: 'Counter 3  ', count: 8 },
   ];
 
   const [counters, setCounters] = useState(InitialCounterState);
@@ -43,9 +43,9 @@ function App() {
 
   const addCounter =(name, count) => {
     const newCounters = [...counters, {
-      id: Math.random(),
+      id: Math.round(Math.random() * 1000),
       name,
-      count
+      count: count
     }];
     setCounters(newCounters);
   };
@@ -56,19 +56,20 @@ function App() {
       Total {counters.reduce((a,b) => a + b.count, 0)}
       <button onClick={resetTotalCount} className="btn btn-danger">Reset total count</button>
       <hr />
-      {counters.map(el => <Counter key={el.id}
-                                            id={el.id}
-                                            name={el.name}
-                                            count={el.count}
-                                            increment={incrementCounter}
-                                            decrement={decrementCounter}
-                                            remove={removeCounter}
+      {
+        counters.map(el => <Counter   key={el.id}
+                                      id={el.id}
+                                      name={el.name}
+                                      count={el.count}
+                                      increment={incrementCounter}
+                                      decrement={decrementCounter}
+                                      remove={removeCounter}
 
       />)
       }
       <hr/>
 
-      <CounterForm onSubmit={addCounter}/>
+      <AddCounterForm onSubmit={addCounter}/>
 
     </div>
 
