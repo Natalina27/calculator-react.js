@@ -8,13 +8,20 @@ function Counter(props) {
                 <div className='row'>
                     <div className='col'>
                             ID <strong>{props.id}</strong>
-                            Counter name <strong>{props.name}</strong>
-                            Counter value <strong>{props.count}</strong>
-
-                            <button onClick={() => props.decrement(props.id)} className='btn btn-primary'>-</button>
-                            <button onClick={() => props.increment(props.id)} className='btn btn-primary'>+</button>
-                            <button onClick={() => props.remove(props.id)} className='btn btn-danger'>DELETE</button>
                     </div>
+
+                    <div className='col'>
+                            Counter name <strong>{props.name}</strong>
+                    </div>
+
+                    <div className='col'>
+                        <button onClick={() => props.decrement(props.id)} className='btn btn-primary'>-</button>
+                        <strong>{props.count}</strong>
+                        <button onClick={() => props.increment(props.id)} className='btn btn-primary'>+</button>
+                    </div>
+
+                    <button onClick={() => props.remove(props.id)} className='btn btn-danger'>DELETE</button>
+
                 </div>
             </div>
         </div>

@@ -18,15 +18,18 @@ function AddCounterForm(props) {
                        onChange={e => setName(e.target.value)}
                        className='form-control' />
             </div>
+
             <div className='col'>
                 <input type='number' name='count' value={count}
                        onChange={e => setCount(e.target.value)}
                        className='form-control'/>
             </div>
+
             <div className='col'>
                 <button onClick={() => onSubmit(name, count)}
-                        className='btn btn-secondary'>CREATE</button>
+                        className='btn btn-outline-secondary'>CREATE</button>
             </div>
+
         </div>
     );
 }
