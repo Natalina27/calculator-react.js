@@ -1,9 +1,14 @@
-import React, {useState} from 'react';
+import React, {useState} from 'react'
 
 function AddCounterForm(props) {
 
+    const {setCounters, counters} = props;
+
     const [name, setName] = useState('Counter n  ');
     const [count, setCount] = useState('0');
+    const randomId = (() => Math.random().toString(36).substr(2, 4))();
+    console.log(randomId);
+
 
     const onSubmit = () => {
         props.onSubmit(name, Number(count));

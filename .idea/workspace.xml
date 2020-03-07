@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8240a2eb-4c2c-4461-8060-eaa3030959c2" name="Default Changelist" comment="" />
+    <list default="true" id="8240a2eb-4c2c-4461-8060-eaa3030959c2" name="Default Changelist" comment="modal">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/AddCounterForm/AddCounterForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AddCounterForm/AddCounterForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/App/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +94,9 @@
       <workItem from="1582323406291" duration="13221000" />
       <workItem from="1582827475070" duration="1827000" />
       <workItem from="1582912069590" duration="213000" />
-      <workItem from="1582966459666" duration="3738000" />
+      <workItem from="1582966459666" duration="3978000" />
+      <workItem from="1583599362398" duration="5000" />
+      <workItem from="1583599428171" duration="1343000" />
     </task>
     <task id="LOCAL-00001" summary="created directory Components and App inside it">
       <created>1582310350169</created>
@@ -173,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583002585419</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="modal">
+      <created>1583074005816</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1583074005816</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
